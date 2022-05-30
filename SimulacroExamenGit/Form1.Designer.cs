@@ -37,6 +37,7 @@ namespace SimulacroExamenGit
             this.textBoxApellido = new System.Windows.Forms.TextBox();
             this.labelEdad = new System.Windows.Forms.Label();
             this.textBoxEdad = new System.Windows.Forms.TextBox();
+            this.btnBorrar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -105,11 +106,21 @@ namespace SimulacroExamenGit
             this.textBoxEdad.Size = new System.Drawing.Size(100, 26);
             this.textBoxEdad.TabIndex = 7;
             // 
+            // btnBorrar
+            // 
+            this.btnBorrar.Location = new System.Drawing.Point(462, 320);
+            this.btnBorrar.Name = "btnBorrar";
+            this.btnBorrar.Size = new System.Drawing.Size(173, 45);
+            this.btnBorrar.TabIndex = 8;
+            this.btnBorrar.Text = "Borrar Datos";
+            this.btnBorrar.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnBorrar);
             this.Controls.Add(this.textBoxEdad);
             this.Controls.Add(this.labelEdad);
             this.Controls.Add(this.textBoxApellido);
@@ -135,6 +146,7 @@ namespace SimulacroExamenGit
         private System.Windows.Forms.TextBox textBoxApellido;
         private System.Windows.Forms.Label labelEdad;
         private System.Windows.Forms.TextBox textBoxEdad;
+        private System.Windows.Forms.Button btnBorrar;
     }
 }
 
