@@ -21,5 +21,12 @@ namespace SimulacroExamenGit
         {
             labelResultado.Text = "Tu nombre es: " + textBoxNombre.Text + " " + textBoxApellido.Text + " Tu edad es de: " + textBoxEdad.Text + " años";
         }
+
+        private void btnBorrar_Click(object sender, EventArgs e)
+        {
+            textBoxNombre.Text = "";
+            textBoxApellido.Text = "";
+            textBoxEdad.Text = "";
+        }
     }
 }

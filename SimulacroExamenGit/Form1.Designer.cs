@@ -114,6 +114,7 @@ namespace SimulacroExamenGit
             this.btnBorrar.TabIndex = 8;
             this.btnBorrar.Text = "Borrar Datos";
             this.btnBorrar.UseVisualStyleBackColor = true;
+            this.btnBorrar.Click += new System.EventHandler(this.btnBorrar_Click);
             // 
             // Form1
             // 
