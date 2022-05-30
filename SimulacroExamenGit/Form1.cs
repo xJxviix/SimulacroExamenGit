@@ -24,7 +24,7 @@ namespace SimulacroExamenGit
 
         private void btnBorrar_Click(object sender, EventArgs e)
         {
-
+            labelResultado.Text = "";
         }
     }
 }
