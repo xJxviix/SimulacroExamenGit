@@ -33,6 +33,8 @@ namespace SimulacroExamenGit
             this.textBoxNombre = new System.Windows.Forms.TextBox();
             this.btnAceptar = new System.Windows.Forms.Button();
             this.labelResultado = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.textBoxApellido = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -53,7 +55,7 @@ namespace SimulacroExamenGit
             // 
             // btnAceptar
             // 
-            this.btnAceptar.Location = new System.Drawing.Point(93, 172);
+            this.btnAceptar.Location = new System.Drawing.Point(84, 225);
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.Size = new System.Drawing.Size(97, 43);
             this.btnAceptar.TabIndex = 2;
@@ -69,11 +71,29 @@ namespace SimulacroExamenGit
             this.labelResultado.Size = new System.Drawing.Size(0, 20);
             this.labelResultado.TabIndex = 3;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(89, 146);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(69, 20);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "Apellido:";
+            // 
+            // textBoxApellido
+            // 
+            this.textBoxApellido.Location = new System.Drawing.Point(226, 140);
+            this.textBoxApellido.Name = "textBoxApellido";
+            this.textBoxApellido.Size = new System.Drawing.Size(231, 26);
+            this.textBoxApellido.TabIndex = 5;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.textBoxApellido);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.labelResultado);
             this.Controls.Add(this.btnAceptar);
             this.Controls.Add(this.textBoxNombre);
@@ -91,6 +111,8 @@ namespace SimulacroExamenGit
         private System.Windows.Forms.TextBox textBoxNombre;
         private System.Windows.Forms.Button btnAceptar;
         private System.Windows.Forms.Label labelResultado;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox textBoxApellido;
     }
 }
 
