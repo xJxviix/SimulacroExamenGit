@@ -19,7 +19,7 @@ namespace SimulacroExamenGit
 
         private void btnAceptar_Click(object sender, EventArgs e)
         {
-            labelResultado.Text = "Tu nombre es: " + textBoxNombre.Text + " " + textBoxApellido.Text;
+            labelResultado.Text = "Tu nombre es: " + textBoxNombre.Text + " " + textBoxApellido.Text + " Tu edad es de: " + textBoxEdad.Text;
         }
     }
 }
