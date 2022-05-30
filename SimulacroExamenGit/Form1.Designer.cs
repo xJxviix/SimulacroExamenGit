@@ -35,6 +35,8 @@ namespace SimulacroExamenGit
             this.labelResultado = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.textBoxApellido = new System.Windows.Forms.TextBox();
+            this.labelEdad = new System.Windows.Forms.Label();
+            this.textBoxEdad = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -55,7 +57,7 @@ namespace SimulacroExamenGit
             // 
             // btnAceptar
             // 
-            this.btnAceptar.Location = new System.Drawing.Point(84, 225);
+            this.btnAceptar.Location = new System.Drawing.Point(93, 320);
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.Size = new System.Drawing.Size(198, 43);
             this.btnAceptar.TabIndex = 2;
@@ -87,11 +89,29 @@ namespace SimulacroExamenGit
             this.textBoxApellido.Size = new System.Drawing.Size(231, 26);
             this.textBoxApellido.TabIndex = 5;
             // 
+            // labelEdad
+            // 
+            this.labelEdad.AutoSize = true;
+            this.labelEdad.Location = new System.Drawing.Point(89, 215);
+            this.labelEdad.Name = "labelEdad";
+            this.labelEdad.Size = new System.Drawing.Size(51, 20);
+            this.labelEdad.TabIndex = 6;
+            this.labelEdad.Text = "Edad:";
+            // 
+            // textBoxEdad
+            // 
+            this.textBoxEdad.Location = new System.Drawing.Point(226, 209);
+            this.textBoxEdad.Name = "textBoxEdad";
+            this.textBoxEdad.Size = new System.Drawing.Size(100, 26);
+            this.textBoxEdad.TabIndex = 7;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.textBoxEdad);
+            this.Controls.Add(this.labelEdad);
             this.Controls.Add(this.textBoxApellido);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.labelResultado);
@@ -113,6 +133,8 @@ namespace SimulacroExamenGit
         private System.Windows.Forms.Label labelResultado;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBoxApellido;
+        private System.Windows.Forms.Label labelEdad;
+        private System.Windows.Forms.TextBox textBoxEdad;
     }
 }
 
