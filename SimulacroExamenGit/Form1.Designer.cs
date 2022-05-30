@@ -57,7 +57,7 @@ namespace SimulacroExamenGit
             // 
             this.btnAceptar.Location = new System.Drawing.Point(84, 225);
             this.btnAceptar.Name = "btnAceptar";
-            this.btnAceptar.Size = new System.Drawing.Size(97, 43);
+            this.btnAceptar.Size = new System.Drawing.Size(198, 43);
             this.btnAceptar.TabIndex = 2;
             this.btnAceptar.Text = "Enviar";
             this.btnAceptar.UseVisualStyleBackColor = true;
